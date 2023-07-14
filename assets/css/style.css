@@ -1,0 +1,59 @@
+
+body {
+	margin: 0; 
+}
+
+header, footer {
+	background-color: black;
+}
+
+section {
+	display: flex;
+	flex-direction: row  ;
+	background-color: black;
+	margin-block-end: 50px;
+}
+
+#sect {
+	margin-block-end: 15px;
+}
+
+main {
+	 height: 70vh;
+	flex: 1;
+	background-color: black;
+}
+
+aside {
+
+	 height: 70vh;
+	 width:  50vh;
+	 background-color: white;
+}
+
+#products {
+	margin-block-end: 45px;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+#rodape {
+	background-color: #f8f9fa;
+	margin-top: 90px;
+	margin-block-end: 90px;
+	padding-top: 50px;
+	padding-block-end: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.pai{
+	width: 100%
+}
+
+
+.filho{
+	width: 960px; margin: 0 auto;
+}
